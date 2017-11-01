@@ -103,7 +103,7 @@
             <div class="form-group">
              <div class="input-group">
                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-             <input type="email" name="email" class="form-control" placeholder="Your Email" value="<?php $
+             <input type="email" name="email" class="form-control" placeholder="Your Email" value="<?php echo $email; ?>" maxlength="40" />
                 </div>
                 <span class="text-danger"><?php echo $emailError; ?></span>
             </div>
@@ -111,7 +111,7 @@
             <div class="form-group">
              <div class="input-group">
                 <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-             <input type="password" name="pass" class="form-control" placeholder="Your Password" maxlengt$
+             <input type="password" name="pass" class="form-control" placeholder="Your Password" maxlength="15" />
                 </div>
                 <span class="text-danger"><?php echo $passError; ?></span>
             </div>
